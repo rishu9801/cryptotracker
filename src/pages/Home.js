@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Banner from "../components/Banner";
-import CoinsTable from "../components/CoinsTable";
 import List from "../components/List";
 import Navbar from "../components/Navbar";
 
@@ -11,7 +10,6 @@ const Home = () => {
       <Navbar setSearch={setSearch}></Navbar>
       <Banner></Banner>
       <List search={search}></List>
-      {/* <CoinsTable></CoinsTable> */}
     </>
   );
 };
