@@ -46,7 +46,7 @@ const List = ({search}) => {
                 }}
               >
                 <span style={{ margin: "10px" }}>
-                  <img src={coin.image} />
+                  <img src={coin.image} alt={coin.name}/>
                 </span>
                 <span style={{ display: "flex", flexDirection: "column" }}>
                   <span>{coin.symbol.toUpperCase()}</span>
