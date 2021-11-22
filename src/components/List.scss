@@ -1,0 +1,41 @@
+.listContainer {
+  color: white;
+  margin: auto;
+  overflow-x: scroll;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  border: transparent;
+  border-collapse: collapse;
+  tr{
+    margin: 10px 0;
+    width: 100%;
+  }
+  tr:hover{
+    background-color: rgba(77, 76, 122, 0.349);
+    cursor: pointer;
+  }
+  th {
+    color: rgb(28, 36, 54);
+    padding: 0.5rem 5%;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  td {
+    text-align: center;
+    margin-bottom: 10px;
+
+    img {
+      width: 3rem;
+      margin:0.75rem 0;
+    }
+  }
+  .loss {
+    color: red;
+  }
+  .profit {
+    color: green;
+  }
+}

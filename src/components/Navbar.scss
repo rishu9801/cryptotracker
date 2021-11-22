@@ -1,0 +1,33 @@
+.nav {
+  color: rgb(28, 36, 54);
+  background-color: gold;
+  padding: 0.5rem 10%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  h3 {
+    font-weight: bolder;
+    font-size: 1.75rem;
+  }
+}
+.searchBox {
+  margin: 1rem auto;
+  border: transparent;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  background-color: rgb(28, 36, 54);
+  color: white;
+  width: 200px;
+}
+
+@media only screen and(max-width:768px) {
+    .nav{
+        padding: 0.5rem ;
+    }
+    .logo h3{
+        font-size: 1.5rem;
+    }
+}
